@@ -1,0 +1,12 @@
+{
+  "name": "Hide Medium Banners",
+  "description": "Hides medium banners to provide a larger screen for reading",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "css": ["medium.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

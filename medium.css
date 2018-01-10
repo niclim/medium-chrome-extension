@@ -1,0 +1,5 @@
+.metabar.js-metabar,
+.metabar--spacer.js-metabarSpacer,
+.js-stickyFooter {
+  display: none;
+}
