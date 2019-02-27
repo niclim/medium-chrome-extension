@@ -1,10 +1,11 @@
 {
-  "name": "Hide Medium Banners",
-  "description": "Hides medium banners to provide a larger screen for reading",
+  "name": "Hide annoying stuff",
+  "description": "Hides stuff that companies think I want to see but really I don't want to see",
   "version": "1.0",
   "manifest_version": 2,
   "content_scripts": [
     {
+      "js": ["generic.js"],
       "css": ["medium.css"],
       "matches": ["<all_urls>"]
     }

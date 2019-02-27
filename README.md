@@ -1,2 +1,2 @@
-# medium-chrome-extension
-hides header and footer
+# personal-chrome-extension
+Stuff to block stuff that I think is unnecessary to see
