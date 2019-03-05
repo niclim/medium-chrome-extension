@@ -64,6 +64,7 @@
 
   const isFb = () => /^www\.facebook/i.test(window.location.host)
   const isMediumSite = () =>
+    document && document.head &&
     document.head.querySelector('meta[property="al:android:app_name"]') &&
     /^medium$/i.test(
       document.head
