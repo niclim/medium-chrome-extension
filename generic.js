@@ -48,7 +48,7 @@
               .forEach(node => (node.style = 'display: none;'))
             // hide sponsored content
             document
-              .querySelectorAll('[data-testid="story-subtilte"]')
+              .querySelectorAll('[data-testid="story-subtitle"]')
               .forEach(node => {
                 ;/sponsored/i.test(node.innerText) &&
                   (node.closest('[data-insertion-position]').style =
